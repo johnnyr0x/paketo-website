@@ -25,12 +25,12 @@ Full stack variants differ in the number of packages installed in the OS layer.
 The available stacks, _**from smallest to largest**_, are:
 - [Bionic Tiny](https://github.com/paketo-buildpacks/bionic-tiny-stack):
   - Build image based on Ubuntu 18.04 Bionic Beaver; run image comparable to [distroless](https://github.com/GoogleContainerTools/distroless)
-  - Ideal for most Golang apps, Java
+  - Ideal for most Golang apps, Java and Java
     [GraalVM Native
     Images](https://www.graalvm.org/docs/reference-manual/native-image/)
 - [Jammy Tiny](https://github.com/paketo-buildpacks/jammy-tiny-stack)
   - Build image based on Ubuntu 22.04 Jammy Jellyfish; run image comparable to [distroless](https://github.com/GoogleContainerTools/distroless)
-  - Ideal for most Golang apps, Java
+  - Ideal for most Golang apps, Java and Java
     [GraalVM Native
     Images](https://www.graalvm.org/docs/reference-manual/native-image/)
 - [Bionic Base](https://github.com/paketo-buildpacks/bionic-base-stack)
